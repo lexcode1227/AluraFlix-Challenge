@@ -1,0 +1,47 @@
+[
+  {
+    "id": "01" ,
+    "team": "Frontend",
+    "link": "https://www.aluracursos.com/challenges/oracle-one/sprint01-construye-un-encriptador-texto-con-javascript",
+    "picture": "https://cdn.pixabay.com/photo/2019/07/16/18/18/frontend-4342425_1280.png",
+    "title": "Encriptador de texto",
+    "text": "Construye un encriptador de texto con Javascript",
+    "fav": false
+  },
+  {
+    "id": "02",
+    "team": "Frontend",
+    "link": "https://www.aluracursos.com/challenges/oracle-one-back-end/hotelalura/sprint01",
+    "picture": "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg",
+    "title": "Alura Hotel",
+    "text": "Crea tu propia aplicación Desktop con conexión al Banco de Datos.",
+    "fav": false
+  },
+  {
+    "id": "03",
+    "team": "Frontend",
+    "link": "https://www.aluracursos.com/challenges/oracle-one-back-end/hotelalura/sprint01",
+    "picture": "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg",
+    "title": "Alura Hotel",
+    "text": "Crea tu propia aplicación Desktop con conexión al Banco de Datos.",
+    "fav": false
+  },
+  {
+    "id": "04",
+    "team": "Frontend",
+    "link": "https://www.aluracursos.com/challenges/oracle-one-back-end/hotelalura/sprint01",
+    "picture": "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg",
+    "title": "Alura Hotel",
+    "text": "Crea tu propia aplicación Desktop con conexión al Banco de Datos.",
+    "fav": false
+  },
+  {
+    "id": "05",
+    "team": "Backend",
+    "link": "https://www.aluracursos.com/challenges/oracle-one-back-end/hotelalura/sprint01",
+    "picture": "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg",
+    "title": "Hotel Alura",
+    "text": "Crea tu propia aplicación Desktop con conexión al Banco de Datos.",
+    "fav": false
+  }
+]

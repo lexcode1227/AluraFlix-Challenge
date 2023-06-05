@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { Grid, TextField, IconButton, Button, Avatar, Menu, MenuItem, Fade } from '@mui/material'
-import Logo from '/src/assets/LOGO--white.svg'
+import Logo from '/src/assets/Logo--white-png.png'
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined'
 import NotificationsOutlinedIcon from '@mui/icons-material/NotificationsOutlined'
 import { useMediaQuery } from '@mui/material'
@@ -34,7 +34,7 @@ const Header = ({nombre}) => {
                 flexWrap="wrap"
                 sx={{backgroundColor: "#0066ff", padding: "0 25px", justifyContent: hideOn500px  ? "center" : "space-between"}} 
             >
-                <img src={Logo} width="275px" height="auto" />
+                <img src={Logo} width="216px" height="auto" />
                 <Grid 
                     container component="nav" 
                     justifyContent="space-evenly"

@@ -57,7 +57,9 @@ const Form = ({addChallenge, closeModal, teams}) => {
     fontWeight: "400",
     textTransform: "capitalize",
 }
-
+  const deleteInputs = ()=>{
+  setTitle(""), setLinkImgChallenge(""), setLinkChallenge(""), setCategory(""), setDescription("")
+}
   return (
     <Grid sx={Gridstyles}>
       <Typography component="h2" variant='h4' >New Challenge</Typography>
@@ -72,9 +74,7 @@ const Form = ({addChallenge, closeModal, teams}) => {
             team: category, 
             text: description
           })
-          closeModal()
-          //Clean inputs value (solucion por el momento)
-          setTitle(""), setLinkImgChallenge(""), setLinkChallenge(""), setCategory(""), setDescription("")
+          deleteInputs  
         }} >
           <Typography component="h2" variant='h6'>
             Complete the following information to create a new challenge.
@@ -128,9 +128,6 @@ const Form = ({addChallenge, closeModal, teams}) => {
           <Button variant="contained" type="submit" sx={buttonStyles} >
             Save
           </Button>
-          {/* <Button variant="contained"  sx={buttonStyles} onClick={manejarEnvio} >
-            New Category
-          </Button> */}
         </form>
       </Grid>
     </Grid>

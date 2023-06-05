@@ -15,7 +15,7 @@ const CardGroup = (props) => {
 
   return (
     <>
-      <Grid container component="section" flexDirection="column" sx={{ marginBottom: '40px', padding: "0 25px" }}>
+      <Grid container maxWidth="1333px" component="section" flexDirection="column" sx={{ marginBottom: '40px', padding: "0 25px" }}>
         <Grid
           item
           container

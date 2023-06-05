@@ -6,7 +6,7 @@ import Slider from '../Slider'
 const Favourite = ({challenges, addFav, deleteChallenge,}) => {
 
   return (
-    <Grid container component="section" flexDirection="column" sx={{ marginBottom: '40px', padding: "0 25px" }}>
+    <Grid container component="section" maxWidth="1333px" flexDirection="column" sx={{ marginBottom: '40px', padding: "0 25px" }}>
         <Typography component="h3" variant="h5" marginBottom="20px">Favourite Items</Typography>
         {challenges.length <= 2 ? (
         // Renderiza el segundo Grid si hay menos o igual a 2 challenges

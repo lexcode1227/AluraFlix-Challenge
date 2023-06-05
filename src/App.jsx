@@ -6,7 +6,6 @@ import CardGroup from "./Components/CardGroup"
 import Footer from './Components/Footer'
 import {v4 as uuid} from "uuid"
 import Favourite from './Components/Favourite'
-import Slider from './Components/Slider'
 
 function App() {
   const [ challenges, setChallenges ] = useState([
@@ -85,9 +84,6 @@ function App() {
     })
     setChallenges(challengeValidated)
   }
-  // const toggleCarrusel = ()=>{
-  //   setCarrusel(!carrusel)
-  // }
 
   return (
     <Grid component="main" container justifyContent="center">

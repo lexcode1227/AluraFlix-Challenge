@@ -26,17 +26,17 @@ const Features = () => {
     const ulStyles = {
         maxWidth: "900px",
         display: "grid",
+        alignItems: "start",
         gridTemplateColumns: "repeat(3,1fr)",
         listStyle: "none",
     }
     const liStyles = {
-        // padding: "16px",
-        height: "100px",
+        height: "auto",
     }
     const iconStyles = {
         marginRight: "10px",
         borderRadius: "4px",
-        backgroundColor:"#d57a28", 
+        backgroundColor:"cornflowerblue", 
         padding: "10px"
     }
   return (

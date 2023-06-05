@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Grid } from "@mui/material"
 import Header from "./Components/Header"
 import Banner from "./Components/Banner"
@@ -6,55 +6,10 @@ import CardGroup from "./Components/CardGroup"
 import Footer from './Components/Footer'
 import {v4 as uuid} from "uuid"
 import Favourite from './Components/Favourite'
+import challengesData from './Data/data.json'
 
 function App() {
-  const [ challenges, setChallenges ] = useState([
-    {
-      id: uuid(),
-      team: "Frontend",
-      link: "https://www.aluracursos.com/challenges/oracle-one/sprint01-construye-un-encriptador-texto-con-javascript",
-      picture: "https://cdn.pixabay.com/photo/2019/07/16/18/18/frontend-4342425_1280.png",
-      title: "Encriptador de texto",
-      text: "Construye un encriptador de texto con Javascript",
-      fav: false,
-    },
-    {
-      id: uuid(),
-      team: "Frontend",
-      link: "https://www.aluracursos.com/challenges/oracle-one-back-end/hotelalura/sprint01",
-      picture: "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg",
-      title: "Alura Hotel",
-      text: "Crea tu propia aplicación Desktop con conexión al Banco de Datos.",
-      fav: false,
-    },
-    {
-      id: uuid(),
-      team: "Frontend",
-      link: "https://www.aluracursos.com/challenges/oracle-one-back-end/hotelalura/sprint01",
-      picture: "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg",
-      title: "Alura Hotel",
-      text: "Crea tu propia aplicación Desktop con conexión al Banco de Datos.",
-      fav: false,
-    },
-    {
-      id: uuid(),
-      team: "Frontend",
-      link: "https://www.aluracursos.com/challenges/oracle-one-back-end/hotelalura/sprint01",
-      picture: "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg",
-      title: "Alura Hotel",
-      text: "Crea tu propia aplicación Desktop con conexión al Banco de Datos.",
-      fav: false,
-    },
-    {
-      id: uuid(),
-      team: "Backend",
-      link: "https://www.aluracursos.com/challenges/oracle-one-back-end/hotelalura/sprint01",
-      picture: "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg",
-      title: "Hotel Alura",
-      text: "Crea tu propia aplicación Desktop con conexión al Banco de Datos.",
-      fav: true,
-    }, 
-  ])
+  const [ challenges, setChallenges ] = useState([])
   const [ teams, setTeams ] = useState([
     {
       id: uuid(),
@@ -64,8 +19,14 @@ function App() {
       id: uuid(),
       title: "Backend",
     },
+    {
+      id: uuid(),
+      title: "Programming logic",
+    },
   ])
-
+  useEffect(() => {
+    setChallenges(challengesData);
+  }, [])
   const addChallenge = (values) => {
     console.log('Challenge added: ', values)
     setChallenges([...challenges, values])

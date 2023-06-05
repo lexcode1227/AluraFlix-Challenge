@@ -12,26 +12,28 @@ const ChallengeCard = (props) => {
       top: "7px",
       right: "12px",
       cursor: "pointer",
+      color: "#0066ff",
   }
   const favIcon = {
     color: "#EA3131",
     position: "absolute",
     top: "7px",
     left: "12px",
-    cursor: "pointer"
+    cursor: "pointer",
   }
   const favBorderIcon = {
     position: "absolute",
     top: "7px",
     left: "12px",  
-    cursor: "pointer"  
+    cursor: "pointer",
+    color: "#0066ff",
   }
   return (
     <Card sx={{ maxWidth: 345 , height: 380, borderRadius: "10px", marginBottom: "40px", position: "relative"}} >
       <ClearIcon onClick={()=> deleteChallenge(id)} style={eliminarIcon}  ></ClearIcon>
       { fav ?<FavoriteIcon sx={favIcon} onClick={()=>addFav(id)}/> : <FavoriteBorderIcon sx={favBorderIcon} onClick={()=>addFav(id)}/> }
       <CardMedia
-        sx={{ height: 200 }}
+        sx={{ width: 345 ,height: 200 }}
         image={picture}
         title={title}
       />

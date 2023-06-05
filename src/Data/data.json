@@ -3,45 +3,63 @@
     "id": "01" ,
     "team": "Frontend",
     "link": "https://www.aluracursos.com/challenges/oracle-one/sprint01-construye-un-encriptador-texto-con-javascript",
-    "picture": "https://cdn.pixabay.com/photo/2019/07/16/18/18/frontend-4342425_1280.png",
+    "picture": "https://raw.githubusercontent.com/lexcode1227/decodificador-de-texto/main/src/Encriptador-de-Texto.png",
     "title": "Encriptador de texto",
-    "text": "Construye un encriptador de texto con Javascript",
+    "text": "Construye un encriptador de texto con Javascript.",
     "fav": false
   },
   {
     "id": "02",
     "team": "Frontend",
-    "link": "https://www.aluracursos.com/challenges/oracle-one-back-end/hotelalura/sprint01",
-    "picture": "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg",
-    "title": "Alura Hotel",
-    "text": "Crea tu propia aplicación Desktop con conexión al Banco de Datos.",
+    "link": "https://www.aluracursos.com/challenges/oracle-one-front-end/alurageek/alurageek-sprint01",
+    "picture": "https://camo.githubusercontent.com/c708bf39b7ed509fe200715c1e2c79e5cddb0086e4b8c0abfc0544c361bccc56/68747470733a2f2f692e6962622e636f2f396e79505473312f73637265656e2d736974696f2d7765622e706e67",
+    "title": "Portafolio",
+    "text": "Crea tu propio portafolio para presentar tus proyectos.",
     "fav": false
   },
   {
     "id": "03",
     "team": "Frontend",
-    "link": "https://www.aluracursos.com/challenges/oracle-one-back-end/hotelalura/sprint01",
-    "picture": "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg",
-    "title": "Alura Hotel",
-    "text": "Crea tu propia aplicación Desktop con conexión al Banco de Datos.",
+    "link": "https://www.aluracursos.com/challenges/oracle-one-front-end/alurageek/alurageek-sprint01",
+    "picture": "https://raw.githubusercontent.com/EduardoUT/AluraGeek-ONE-Alura_Challenge/master/assets/img/readme/AluraGeek.PNG",
+    "title": "Alura Geek",
+    "text": "Crea tu propio e-commerce, validando datos y utilizando CRUD.",
     "fav": false
   },
   {
     "id": "04",
     "team": "Frontend",
-    "link": "https://www.aluracursos.com/challenges/oracle-one-back-end/hotelalura/sprint01",
-    "picture": "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg",
-    "title": "Alura Hotel",
-    "text": "Crea tu propia aplicación Desktop con conexión al Banco de Datos.",
+    "link": "https://www.aluracursos.com/challenges/oracle-one-front-end/aluraflix/aluraflix-sprint01",
+    "picture": "https://i.ibb.co/myyY6LG/Alura-Flix.png",
+    "title": "AluraFlix",
+    "text": "Crea tu propia aplicación de videos.",
     "fav": false
   },
   {
     "id": "05",
+    "team": "Programming logic",
+    "link": "https://www.aluracursos.com/challenges/oracle-one/sprint02-crea-tu-propio-juego-del-ahorcado-con-javascript",
+    "picture": "https://raw.githubusercontent.com/EduardoUT/Ahorcado-Oracle-ONE-Challenge/master/img/assets/Juego.PNG",
+    "title": "Juego del Ahorcado",
+    "text": "Crea tu propio juego del ahorcado con Javascript.",
+    "fav": true
+  },
+  {
+    "id": "06",
     "team": "Backend",
     "link": "https://www.aluracursos.com/challenges/oracle-one-back-end/hotelalura/sprint01",
-    "picture": "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg",
+    "picture": "https://raw.githubusercontent.com/EduardoUT/CRUD-Alura-Hotel-ONE-Alura_Challenge/master/src/mx/com/alurahotel/imagenes/loginVentana.PNG",
     "title": "Hotel Alura",
     "text": "Crea tu propia aplicación Desktop con conexión al Banco de Datos.",
+    "fav": false
+  },
+  {
+    "id": "07",
+    "team": "Backend",
+    "link": "https://www.aluracursos.com/challenges/oracle-one-java/sprint01-conversor-moneda",
+    "picture": "https://raw.githubusercontent.com/EduardoUT/ConversorMoneda-ONE-Alura_Challenge/master/src/Imagenes/interfazcurrency.PNG",
+    "title": "Conversor de Monedas",
+    "text": "Crea tu propia aplicación que funciona como un conversor de monedas usando una api.",
     "fav": false
   }
 ]
